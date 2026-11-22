@@ -30,11 +30,10 @@ INSERT INTO usuario(empresa_id, nome, email, senha, nivel_acesso)
 SET @email_adm = 'contato@brvias.com.br';
 SET @senha = 'BrVias#2026';
 
-SET @jira_email = 'luizfernandolufe@yahoo.com.br'; 
-SET @jira_base_url = 'https://luizfernandolufe.atlassian.net';
+SET @jira_email = ''; 
+SET @jira_base_url = '';
 SET @jira_project_key = 'KAN';
-SET @jira_api_key = 'ATATT3xFfGF0tG87_67cMvowO3flcQfSbTkV6CzdvZIBv20JCcz-lJJvpmt8syPM1OvUc1JjK2h9KOUap_tyDwUqeOpCIFCBeXVzNXaa8HMxRiHc7CSe-J-3Zk2xOtgq4S68cCEpvvGyFy6ko0ae94U99KWuGlI5qy993jELTrftJ6kbq16-Gks=F321FA03';
-
+SET @jira_api_key = '';
 
 INSERT INTO endereco(cep, logradouro, bairro, numero, complemento, localidade, uf)
 	VALUES('01001000', 'Praça da Sé', 'Sé', '999', 'lado ímpar', 'São Paulo', 'SP');
